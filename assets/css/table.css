@@ -7,8 +7,8 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 tbody{
-    width: 287%;
-    display: block;
+    /*width: 287%;*/
+    /*display: block;*/
     height: 270px;
     overflow-y: scroll;
 }
@@ -19,10 +19,10 @@ tbody{
 }
 .styled-table th,
 .styled-table td {
-    width: 376px;
+    /*width: 376px;
     padding-top: 24px;
     padding-left: 88px;
-    padding-bottom: 14px;
+    padding-bottom: 14px;*/
 }
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
