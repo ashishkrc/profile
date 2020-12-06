@@ -177,7 +177,7 @@ html, body {
 .navbar-nav > li > a {
     padding: 5px 0;
     font-weight: 600;
-    color: #212121;
+    color: white;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
     transition: border-color 0.25s ease-in-out;
@@ -210,7 +210,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    /*background: url(../img/hero.jpg) no-repeat center / cover; */
     height: 100%;
     width: 100%;
     min-height: 700px;
@@ -223,7 +223,7 @@ html, body {
 
 .hero .col-md-6:first-child {
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 0;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -235,8 +235,10 @@ html, body {
 
 .hero .col-md-6:last-child {
     position: absolute;
-    right: 0;
     bottom: 0;
+	top: 24%;
+	right: 0;
+	width:67%;
 }
 
 .hero h1 {
@@ -573,4 +575,70 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+.darkcyan-color-dark {
+    background-color: darkcyan;
+}
+.lightcyan-color-dark {
+    background-color: lightcyan;
+}
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+.font-small {
+    font-size: .9rem;
+}
+.btn-ln:hover {
+    color: #fff;
+    background-color: #3b5998;
+}
+.btn-gh:hover {
+    color: #fff;
+    background-color: #3b5998;
+}
+.btn-so:hover {
+    color: #fff;
+    background-color: #3b5998;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
